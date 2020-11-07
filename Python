@@ -1,0 +1,20 @@
+ums=[1,2,3,4,5,6,7,8]
+
+def is_even(n):
+    if n%2==0:
+      return n
+
+even=list(filter(is_even,nums))
+print(even)
+
+
+##why does this work while the below code doent?
+
+ums=[1,2,3,4,5,6,7,8]
+
+def is_even(n):
+    if n%2==0:
+      return n
+      
+even=list(is_even(nums))
+print(even)
